@@ -1,0 +1,29 @@
+[
+  {
+    "id": "p1",
+    "title": "Daily Multivitamin Tablets",
+    "price": 299,
+    "description": "Complete daily multivitamin for adults. 30 tablets.",
+    "category": "Supplements",
+    "colorA": "#6EE7B7",
+    "colorB": "#3B82F6"
+  },
+  {
+    "id": "p2",
+    "title": "Digital Thermometer",
+    "price": 499,
+    "description": "Quick-read digital thermometer with backlight.",
+    "category": "Devices",
+    "colorA": "#FBCFE8",
+    "colorB": "#F472B6"
+  },
+  {
+    "id": "p3",
+    "title": "Cough Syrup 100ml",
+    "price": 199,
+    "description": "Soothing cough syrup for adults and kids.",
+    "category": "Medicine",
+    "colorA": "#FEF3C7",
+    "colorB": "#F59E0B"
+  }
+]
