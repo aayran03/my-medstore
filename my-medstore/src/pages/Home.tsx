@@ -52,17 +52,17 @@ export default function Home() {
             className="px-3 py-2 rounded-full border border-slate-200 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-300"
           />
 
-          <select
-            value={category}
-            onChange={(e) => setCategory(e.target.value)}
-            className="px-3 py-2 rounded-md border"
-          >
-            {categories.map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </select>
+<select
+  value={category}
+  onChange={(e) => setCategory(e.target.value)}
+  className="px-3 py-2 rounded-md border"
+>
+  {categories.map((c, i) => (
+    <option key={`${c}-${i}`} value={c}>
+      {c}
+    </option>
+  ))}
+</select>
         </div>
       </header>
 

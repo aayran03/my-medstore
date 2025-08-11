@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="w-full bg-white/60 backdrop-blur-md sticky top-0 z-30 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-3">
+        <Link to="/Home" className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-teal-400 to-indigo-500 flex items-center justify-center text-white font-bold shadow">
             M
           </div>
@@ -16,7 +16,7 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-4">
-          <Link to="/" className="text-sm text-slate-700 hover:text-slate-900">
+          <Link to="/Home" className="text-sm text-slate-700 hover:text-slate-900">
             Shop
           </Link>
           <Link

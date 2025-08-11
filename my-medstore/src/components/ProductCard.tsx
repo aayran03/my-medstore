@@ -3,14 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { type Product } from "../data/products";
 
-function formatPrice(n: number) {
-  return `₹${n.toFixed(0)}`;
-}
 
 export default function ProductCard({ p }: { p: Product }) {
   const cart = useCart();
   const navigate = useNavigate();
-
   // Get current quantity of this product in cart
   const cartItem = cart.items.find((item) => item.productId === p.id);
   const qty = cartItem ? cartItem.qty : 0;
@@ -30,7 +26,7 @@ export default function ProductCard({ p }: { p: Product }) {
 
         <div className="mt-4 flex items-center justify-between">
           <div className="flex items-baseline gap-2">
-            <span className="text-xl font-extrabold text-slate-900">{formatPrice(p.price)}</span>
+            <span className="text-xl font-extrabold text-slate-900">{p.price}</span>
             <span className="text-xs text-slate-700">/unit</span>
           </div>
 

@@ -1,0 +1,11 @@
+id,title,price,description,category,colorA,colorB
+p1,Augmentin 625 Duo Tablet,223,"Amoxycillin  (500mg), Glaxo SmithKline Pharmaceuticals Ltd, strip of 10 tablets",Medicine,#DC5E8E,#D44A00
+p2,Azithral 500 Tablet,132,"Azithromycin (500mg), Alembic Pharmaceuticals Ltd, strip of 5 tablets",Medicine,#C6F358,#BB7CC0
+p3,Ascoril LS Syrup,118,"Ambroxol (30mg/5ml), Glenmark Pharmaceuticals Ltd, bottle of 100 ml Syrup",Medicine,#9D8B5E,#B12102
+p4,Allegra 120mg Tablet,218,"Fexofenadine (120mg), Sanofi India  Ltd, strip of 10 tablets",Medicine,#39CAC3,#6D74E1
+p5,Avil 25 Tablet,10,"Pheniramine (25mg), Sanofi India  Ltd, strip of 15 tablets",Medicine,#96FEB1,#0C3E3B
+p6,Allegra-M Tablet,241,"Montelukast (10mg), Sanofi India  Ltd, strip of 10 tablets",Medicine,#BC70BF,#E30BEC
+p7,Amoxyclav 625 Tablet,223,"Amoxycillin  (500mg), Abbott, strip of 10 tablets",Medicine,#98FD60,#0ABAB1
+p8,Azee 500 Tablet,132,"Azithromycin (500mg), Cipla Ltd, strip of 5 tablets",Medicine,#F7DDA0,#BEFE1A
+p9,Atarax 25mg Tablet,85,"Hydroxyzine (25mg), Dr Reddy's Laboratories Ltd, strip of 15 tablets",Medicine,#ABFD7C,#54D441
+p10,Ascoril D Plus Syrup Sugar Free,129,"Phenylephrine (5mg), Glenmark Pharmaceuticals Ltd, bottle of 100 ml Syrup",Medicine,#0F3CAA,#677971
