@@ -51,7 +51,7 @@ export default function CheckoutPage() {
       `Order placed!\nPayment Method: ${paymentMethod.toUpperCase()}\nTotal: ${formatPrice(total)}`
     );
     clear();
-    navigate("/");
+    navigate("/Home");
   };
 
   const handleCustomTipChange = (e: React.ChangeEvent<HTMLInputElement>) => {

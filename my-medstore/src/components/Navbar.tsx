@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
+import ProfileDropdown from "./ProfileDropdown";
 
 export default function Navbar() {
   const { items } = useCart();
@@ -33,12 +34,7 @@ export default function Navbar() {
               </span>
             )}
           </Link>
-          <Link to="/profile" className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-rose-400 to-cyan-500 flex items-center justify-center text-white font-bold shadow">
-            P
-          </div>
-          <div className="text-lg font-semibold">Profile</div>
-        </Link>
+        <ProfileDropdown />
         </div>
       </div>
     </nav>

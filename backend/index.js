@@ -29,6 +29,7 @@ const productSchema = new mongoose.Schema({
 
 const Product = mongoose.model("Product", productSchema);
 
+const User = require('./models/user');
 // 3. Routes
 // GET all products
 app.get("/api/products", async (req, res) => {
