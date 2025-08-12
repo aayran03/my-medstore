@@ -64,7 +64,7 @@ const handleVerifyOtp = async () => {
 
         <input
           type="tel"
-          placeholder="+91 9876543210"
+          placeholder="+91 999999999"
           value={phoneNumber}
           onChange={(e) => setPhoneNumber(e.target.value)}
           className="w-full mb-4 px-4 py-2 border rounded"
